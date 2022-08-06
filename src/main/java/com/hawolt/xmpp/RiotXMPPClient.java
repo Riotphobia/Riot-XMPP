@@ -1,9 +1,5 @@
 package com.hawolt.xmpp;
 
-import com.hawolt.event.handler.message.IMessageListener;
-import com.hawolt.event.handler.presence.IPresenceListener;
-import com.hawolt.event.objects.presence.Presence;
-import com.hawolt.logger.Logger;
 import com.hawolt.auth.IRiotDataCallback;
 import com.hawolt.auth.RiotUser;
 import com.hawolt.auth.login.LoginValue;
@@ -16,7 +12,9 @@ import com.hawolt.event.handler.AbstractObserver;
 import com.hawolt.event.handler.HandlerType;
 import com.hawolt.event.handler.connection.ConnectionHandler;
 import com.hawolt.event.handler.connection.IConnectionListener;
+import com.hawolt.event.handler.message.IMessageListener;
 import com.hawolt.event.handler.message.MessageHandler;
+import com.hawolt.event.handler.presence.IPresenceListener;
 import com.hawolt.event.handler.presence.PresenceHandler;
 import com.hawolt.event.handler.socket.ISocketListener;
 import com.hawolt.event.handler.socket.SocketHandler;
@@ -32,13 +30,14 @@ import com.hawolt.event.objects.friends.GenericFriend;
 import com.hawolt.event.objects.friends.IFriendListener;
 import com.hawolt.event.objects.friends.status.FriendStatus;
 import com.hawolt.event.objects.presence.AbstractPresence;
+import com.hawolt.event.objects.presence.Presence;
+import com.hawolt.logger.Logger;
 import com.hawolt.misc.StaticConfig;
 import com.hawolt.xmpp.input.XMPPConnectionHandler;
 import com.hawolt.xmpp.output.IOutput;
 import com.hawolt.xmpp.output.ISendable;
 import com.hawolt.xmpp.output.OutputType;
 import com.hawolt.xmpp.output.Sendable;
-import org.omg.CORBA.PUBLIC_MEMBER;
 
 import java.io.IOException;
 import java.net.Socket;

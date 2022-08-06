@@ -1,7 +1,6 @@
 package com.hawolt.event.events;
 
 import com.hawolt.event.AbstractEvent;
-import com.hawolt.event.BaseObject;
 import com.hawolt.event.GenericEvent;
 import com.hawolt.event.objects.other.PlainData;
 

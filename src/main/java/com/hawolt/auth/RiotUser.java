@@ -1,8 +1,8 @@
 package com.hawolt.auth;
 
-import com.hawolt.logger.Logger;
 import com.hawolt.auth.login.RiotUserData;
 import com.hawolt.auth.riot.SessionCreator;
+import com.hawolt.logger.Logger;
 import com.hawolt.misc.HttpClient;
 import com.hawolt.misc.StaticConfig;
 import okhttp3.*;

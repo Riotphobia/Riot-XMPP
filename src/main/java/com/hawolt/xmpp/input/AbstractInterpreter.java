@@ -1,10 +1,10 @@
 package com.hawolt.xmpp.input;
 
-import com.hawolt.logger.Logger;
 import com.hawolt.auth.IRiotDataCallback;
 import com.hawolt.event.AbstractEvent;
 import com.hawolt.event.IEvent;
 import com.hawolt.event.objects.connection.ChatIdentity;
+import com.hawolt.logger.Logger;
 import com.hawolt.xmpp.output.IOutput;
 
 import java.util.HashMap;

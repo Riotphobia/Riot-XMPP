@@ -1,9 +1,9 @@
 package com.hawolt.event.events;
 
-import com.hawolt.logger.Logger;
 import com.hawolt.event.AbstractEvent;
 import com.hawolt.event.GenericEvent;
 import com.hawolt.event.objects.friends.status.FriendStatus;
+import com.hawolt.logger.Logger;
 import org.json.JSONObject;
 import org.json.XML;
 

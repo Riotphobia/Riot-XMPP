@@ -1,10 +1,10 @@
 package com.hawolt.event.events;
 
-import com.hawolt.logger.Logger;
 import com.hawolt.event.AbstractEvent;
 import com.hawolt.event.GenericEvent;
 import com.hawolt.event.objects.conversation.history.History;
 import com.hawolt.event.objects.conversation.history.MessageHistory;
+import com.hawolt.logger.Logger;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.XML;

@@ -1,10 +1,10 @@
 package com.hawolt.event.objects.friends;
 
-import com.hawolt.logger.Logger;
 import com.hawolt.event.BaseObject;
 import com.hawolt.event.handler.IBaseDispatcher;
 import com.hawolt.event.handler.Observer;
 import com.hawolt.event.objects.friends.impl.OnlineFriend;
+import com.hawolt.logger.Logger;
 
 import java.util.ArrayList;
 import java.util.HashMap;

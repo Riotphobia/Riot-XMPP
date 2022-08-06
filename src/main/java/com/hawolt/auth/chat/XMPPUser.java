@@ -1,8 +1,8 @@
 package com.hawolt.auth.chat;
 
-import com.hawolt.logger.Logger;
 import com.hawolt.auth.login.LoginValue;
 import com.hawolt.auth.login.RiotUserData;
+import com.hawolt.logger.Logger;
 import com.hawolt.misc.HttpClient;
 import okhttp3.Call;
 import okhttp3.Request;

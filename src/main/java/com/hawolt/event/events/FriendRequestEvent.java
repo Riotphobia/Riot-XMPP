@@ -1,10 +1,10 @@
 package com.hawolt.event.events;
 
-import com.hawolt.logger.Logger;
 import com.hawolt.event.AbstractEvent;
 import com.hawolt.event.GenericEvent;
 import com.hawolt.event.objects.friends.Friend;
 import com.hawolt.event.objects.friends.GenericFriend;
+import com.hawolt.logger.Logger;
 import org.json.JSONObject;
 import org.json.XML;
 

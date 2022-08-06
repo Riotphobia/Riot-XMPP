@@ -1,8 +1,8 @@
 package com.hawolt.xmpp.output;
 
-import com.hawolt.logger.Logger;
 import com.hawolt.auth.IRiotDataCallback;
 import com.hawolt.event.handler.socket.ISocketListener;
+import com.hawolt.logger.Logger;
 import com.hawolt.misc.StaticConfig;
 import com.hawolt.xmpp.IdentityCallback;
 import com.hawolt.xmpp.input.InputCallback;

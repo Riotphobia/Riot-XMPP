@@ -1,8 +1,8 @@
 package com.hawolt.event;
 
-import com.hawolt.logger.Logger;
 import com.hawolt.event.events.*;
 import com.hawolt.event.handler.socket.ISocketListener;
+import com.hawolt.logger.Logger;
 import com.hawolt.misc.Unsafe;
 import com.hawolt.xmpp.IdentityCallback;
 

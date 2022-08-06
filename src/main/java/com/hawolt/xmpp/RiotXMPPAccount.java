@@ -1,6 +1,5 @@
 package com.hawolt.xmpp;
 
-import com.hawolt.logger.Logger;
 import com.hawolt.auth.IRiotDataCallback;
 import com.hawolt.auth.RateLimitController;
 import com.hawolt.auth.RiotChatServer;
@@ -9,6 +8,7 @@ import com.hawolt.auth.chat.XMPPUser;
 import com.hawolt.auth.login.LoginValue;
 import com.hawolt.auth.login.RiotUserData;
 import com.hawolt.event.handler.socket.ISocketListener;
+import com.hawolt.logger.Logger;
 import org.json.JSONObject;
 
 import javax.net.ssl.SSLSocketFactory;

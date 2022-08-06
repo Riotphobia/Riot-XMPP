@@ -1,9 +1,9 @@
 package com.hawolt.xmpp.input.impl;
 
-import com.hawolt.logger.Logger;
 import com.hawolt.auth.IRiotDataCallback;
 import com.hawolt.auth.login.LoginValue;
 import com.hawolt.event.objects.connection.ChatIdentity;
+import com.hawolt.logger.Logger;
 import com.hawolt.xmpp.input.AbstractInterpreter;
 import com.hawolt.xmpp.output.IOutput;
 
