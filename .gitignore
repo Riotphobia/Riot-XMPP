@@ -1,0 +1,10 @@
+# ignore IntelliJ project files
+.idea/*
+# ignore any sort of log files
+logs/*
+# ignore build files
+target/*
+# ignore local file of unhandled xmpp messages
+unhandled
+# ignore test files
+src/test/*
