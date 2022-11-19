@@ -6,10 +6,7 @@ import com.hawolt.event.handler.Observer;
 import com.hawolt.event.objects.friends.impl.OnlineFriend;
 import com.hawolt.logger.Logger;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
@@ -142,6 +139,10 @@ public class FriendList extends BaseObject implements Observer<IFriendListener>,
 
     public String resolve(String jid) {
         return cache.getOrDefault(jid, null);
+    }
+
+    public List<GenericFriend> get() {
+        return map.values().stream().flatMap(Collection::stream).collect(Collectors.toList());
     }
 
     public List<GenericFriend> getList(SubscriptionType type) {
